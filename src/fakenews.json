@@ -1,0 +1,43 @@
+[
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival1_kevqbb.webp",
+        "adi":"Brown Coat",
+        "qiymet":"$899.00"
+    },
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival2_qnqsie.webp",
+        "adi":"Brown Coat",
+        "del":"$1.199.00",
+        "qiymet":"$899.00"
+    },
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival3_eln4we.webp",
+        "adi":"Brown Coat",
+        "qiymet":"$899.00"
+    },
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival4_at2kwr.webp",
+        "adi":"Brown Coat",
+        "qiymet":"$899.00"
+    },
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival5_k0m5du.webp",
+        "adi":"Brown Coat",
+        "qiymet":"$899.00"
+    },
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival6_unniop.webp",
+        "adi":"Brown Coat",
+        "qiymet":"$899.00"
+    },
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881785/arrival7_nnmase.webp",
+        "adi":"Brown Coat"
+        ,"qiymet":"$899.00"
+    },
+    {
+        "img":"https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881785/arrival8_gzlc2c.webp",
+        "adi":"Brown Coat",
+        "qiymet":"$899.00"
+    }
+]

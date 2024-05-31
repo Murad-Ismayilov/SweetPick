@@ -1,0 +1,215 @@
+
+
+
+
+
+
+@media(min-width: 992px) {
+
+  .shirket-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Arkaplan rengi ve opaklığı */
+  }
+  
+  .text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+h5{
+  align-items: center;
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 26px;
+}
+
+.text{
+  font-size: 80px;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+button{
+  background: #ea5748;
+    color: #fff;
+}
+
+.btn{
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #ea5748;
+}
+
+article{
+  color: #000;
+  margin-left: 594px;
+  font-size: 26px;
+}
+
+h1{
+  
+  opacity: 1;
+  left: 824px;
+  top: 280px;
+  font-size: 80px;
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+  line-height: 80px;
+  white-space: nowrap;
+  min-width: 0px;
+  min-height: 0px;
+  transform: scale(1, 1) rotate(0deg);
+  visibility: visible;
+}
+.s-border {
+  margin-left: 574px;
+  padding: 20px 0 50px 0;
+}
+
+.card-text {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.sabitHundurluk{
+  width: 1697.67px;
+  height: 730px;
+ 
+}
+
+}
+
+@media(min-width: 1200px) {
+
+  .shirket-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Arkaplan rengi ve opaklığı */
+  }
+  
+  .text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+h5{
+  align-items: center;
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 26px;
+}
+
+.text{
+  font-size: 80px;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+button{
+  background: #ea5748;
+    color: #fff;
+}
+
+.btn{
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #ea5748;
+}
+
+article{
+  color: #000;
+  margin-left: 594px;
+  font-size: 26px;
+}
+
+h1{
+  
+  opacity: 1;
+  left: 824px;
+  top: 280px;
+  font-size: 80px;
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+  line-height: 80px;
+  white-space: nowrap;
+  min-width: 0px;
+  min-height: 0px;
+  transform: scale(1, 1) rotate(0deg);
+  visibility: visible;
+}
+.s-border {
+  margin-left: 574px;
+  padding: 20px 0 50px 0;
+}
+
+.card-text {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.sabitHundurluk{
+  width: 1697.67px;
+  height: 730px;
+ 
+}
+
+}

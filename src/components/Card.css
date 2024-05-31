@@ -1,0 +1,45 @@
+.serv-box {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.serv-box h4 {
+    text-transform: uppercase;
+    color: #000;
+    margin: 20px 0;
+}
+
+.serv-border {
+    border-bottom: 2px solid #929292;
+    width: 100px;
+    margin: 0 auto 20px;
+}
+
+.serv-box p {
+    text-align: center;
+}
+p {
+    font-size: 13px;
+    color: #6b6b6b;
+    margin: 0;
+    line-height: 22px;
+}
+
+.serv-box i {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
+
+.serv-box {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.services-box{
+    background-color: #f7f7f7;
+}
