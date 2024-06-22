@@ -49,8 +49,8 @@ const BlogContainer = () => {
                   <a href="#" className="small-button button-red mb10">Read More</a>
                 </div>
               </div>
-              
-              <div className="blog-img ">
+
+              <div className="blog-img pb-5">
 
                 <Swiper 
                 spaceBetween={30}
@@ -117,6 +117,38 @@ const BlogContainer = () => {
                   <a href="#" className="small-button button-red mb10">Read More</a>
                 </div>
               </div>
+
+              
+							<div class="blog-post mb50">
+
+                <div class="blog-item">
+
+                <div class="blog-img">
+
+                  <iframe class="videoembed" src="http://www.youtube.com/embed/jwZUjdImZGk"></iframe>
+
+                  <div class="calendar">
+                    <p>02</p>
+                    <span>dec</span>	
+                  </div>
+                  <div class="blog-content">
+
+                    <h1>This is video post example</h1>
+
+                    <div class="post-meta">
+                      <a href="#"><i class="fa fa-user"></i> Joeby Ragpa</a>
+                      <a href="#"><i class="fa fa-bookmark"></i> Design</a>
+                      <a href="#"><i class="fa fa-comment"></i> 15 Comments</a>
+                    </div>
+                    
+                    <p>We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power and complexity that it literally staggers the imagination.</p>
+
+                    <a href="#" class="small-button button-red mb10">Read More</a>
+
+                  </div>
+                  </div>
+                </div>
+              </div>`
             </div>
             
             <div className="col-12 col-md-6 col-lg-4">

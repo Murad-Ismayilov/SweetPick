@@ -434,3 +434,9 @@ ul {
     border-radius: #fff;
     border-color: #fff;
 }
+
+.blog-img .videoembed {
+    width: 100%;
+    height: 390px;
+    border: 0;
+}
