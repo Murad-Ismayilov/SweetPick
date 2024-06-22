@@ -119,7 +119,7 @@ const BlogContainer = () => {
               </div>
 
               
-							<div class="blog-post mb50">
+							<div class="blog-post mb50 pb-5">
 
                 <div class="blog-item">
 
@@ -148,7 +148,91 @@ const BlogContainer = () => {
                   </div>
                   </div>
                 </div>
-              </div>`
+              </div>
+
+              
+              <div className="blog-img pb-5">
+                
+                <div className="calendar">
+                  <p>02</p>
+                  <span>dec</span>
+                </div>
+
+
+                <div className="blog-content">
+                  <div className="post-meta quote">
+                    <a href="#"> 
+                      <i className="fa-solid fa-user"></i>
+                      Joeby Ragpa
+                    </a>
+                    <a href="#"> 
+                      <i className="fa-solid fa-bookmark"></i>
+                      Design
+                    </a>
+                    <a href="#">
+                      <i className="fa-solid fa-comment"></i>
+                      15 Comments
+                    </a>
+                  </div>
+                  <p> “Sometimes life knocks you on your ass... get up, get up, get up!!! Happiness is not the absence of problems, it's the ability to deal with them.” </p>
+                  <span className="block-user"> — Steve Maraboli </span>
+                  <a href="#" className="small-button button-red mb10">Read More</a>
+                </div>
+              </div>
+              
+              <div className="blog-img pb-5">
+                
+                <div className="calendar">
+                  <p>02</p>
+                  <span>dec</span>
+                </div>
+
+
+                <div className="blog-content">
+                  
+                  <div className="post-meta quote">
+                    <a href="#"> 
+                      <i className="fa-solid fa-user"></i>
+                      Joeby Ragpa
+                    </a>
+                    <a href="#"> 
+                      <i className="fa-solid fa-bookmark"></i>
+                      Design
+                    </a>
+                    <a href="#">
+                      <i className="fa-solid fa-comment"></i>
+                      15 Comments
+                    </a>
+                  </div>
+                  <h1> THIS IS TEXT POST EXAMPLE </h1>
+                  <p className='p'> We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power and complexity that it literally staggers the imagination. </p>
+                  <span className="block-user"> — Steve Maraboli </span>
+                  <a href="#" className="small-button button-red mb10">Read More</a>
+                </div>
+              </div>
+
+              <div className="pagenation blog-pagenation clearfix">
+                <ul>
+                  <li class="active">
+                    <a href="#"> 1 </a>
+                  </li>
+                  <li class="">
+                    <a href="#"> 2 </a>
+                  </li>
+                  <li class="">
+                    <a href="#"> 3 </a>
+                  </li>
+                  <li class="">
+                    <a href="#"> 4 </a>
+                  </li>
+                  <li class="">
+                    <a href="#"> 5 </a>
+                  </li>
+                  <li class="">
+                    <a href="#"> > </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             
             <div className="col-12 col-md-6 col-lg-4">
@@ -257,6 +341,38 @@ const BlogContainer = () => {
 
             </div>
             
+            <div class="partners">
+		<div class="container">
+			<div class="row">
+
+				
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners1_zfdt47.webp" alt=""/></a>
+				</div>
+				
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners2_v4b4lh.webp" alt=""/></a>
+				</div>
+		
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners3_yxwmpo.webp" alt=""/></a>
+				</div>
+		
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994620/partners4_k25edj.webp" alt=""/></a>
+				</div>
+			
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994611/partners5_hrpmjb.webp" alt=""/></a>
+				</div>
+				
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994717/partners6_etuvhm.webp" alt=""/></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
           </div>
         </div>
       </div>
