@@ -1,7 +1,70 @@
+@media(min-width: 320px){
+  .card-title{
+    text-align: center;
+    margin: -4px 0 2px 0;
+  }
+  p img#s-border{
+    text-align: center;
+    margin: -12px 0 0 57px;
+  }
+  .card-text{
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+  }
 
+  .btn{
+    width: 136px;
+    padding: 11px 0;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px #e4e4e4;
+    display: block;
+    text-align: center;
+    margin: 5px 0 0 72px;
 
+  }
 
+  .btn:hover{
+    color: #fff;
+    background-color: #ea5748;
+  }
+}
 
+@media(min-width: 390px){
+  .card-text{
+    font-size: 26px;
+    color: #ffff;
+    text-align: center;
+  }
+  
+  .card-title{
+    text-align: center;
+  }
+  
+  .s-border{
+    text-align: center;
+    align-items: center;
+    margin: 0 0 12px 80px;
+  }
+
+  .btn{
+    border: 1px solid #fff;
+    text-align: center;
+    align-items: center;
+    margin: 14px 0 0 120px;
+    color: #fff;
+  }
+
+  .btn:hover{
+    border: 0;
+    background-color: #ea5748;
+    color: #fff;
+  }
+}
 
 
 @media(min-width: 992px) {
@@ -11,7 +74,11 @@
     width: 100%;
     height: 100%;
   }
-  
+
+  .card-title{
+    text-align: center;
+  }
+
   .slider-image {
     width: 100%;
     height: auto;
@@ -151,9 +218,13 @@ h5{
   font-size: 80px;
   align-items: center;
   text-align: center;
+  
 }
 
-
+.card-title{
+  text-align: center;
+  margin: 89px 0 0 0;
+}
 
 button{
   background: #ea5748;
@@ -161,11 +232,18 @@ button{
 }
 
 .btn{
+  width: 151px;
+  padding: 15px 0;
+  font-family: 'Merriweather';
+  font-size: 16px;
+  text-transform: uppercase;
   color: #fff;
-  border: 1px solid #fff;
-  margin-left: 600px;
-  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px #e4e4e4;
+  display: block;
+  text-align: center;
 }
+
 
 .btn:hover{
   color: #fff;
@@ -194,16 +272,13 @@ h1{
   transform: scale(1, 1) rotate(0deg);
   visibility: visible;
 }
-.s-border {
-  margin-left: 574px;
-  padding: 20px 0 50px 0;
-}
+
 
 .card-text {
   font-size: 80px;
   color: #fff;
   text-align: center;
-  padding-bottom: 70px;
+  margin: 90px 0 0 0;
 }
 
 .sabitHundurluk{
@@ -211,5 +286,38 @@ h1{
   height: 730px;
  
 }
+
+p img#s-border{
+  margin: 0 0 -45px 575px;
+
+}
+
+#h5{
+  font-size: 26px;
+  color: #ffff;
+  margin: 90px -522px 0 0;
+}
+
+#button{
+  margin: 51px 0 0 849px;
+    background: #ea5748;
+    color: #fff;
+}
+
+#button:hover{
+  width: 151px;
+  padding: 15px 0;
+  font-family: 'Merriweather';
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px #000;
+  display: block;
+  text-align: center;
+  color: #000;
+}
+
+
 
 }

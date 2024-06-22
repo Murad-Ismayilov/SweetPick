@@ -9,32 +9,32 @@ const Footer = () => {
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-3 pb-5">
                     <h1> ABOUT SHOP </h1>
-                    <p> We possess within us two minds. So far I have written only of the conscious mind.We further know that the subconscious has recorded every event. This is just perfect theme. </p>
+                    <p className='mb20'> We possess within us two minds. So far I have written only of the conscious mind.We further know that the subconscious has recorded every event. This is just perfect theme. </p>
                     <h1 className=''> NEWSLETTER </h1>
                 </div>
-                <div className="col-12 col-md-6 col-lg-3 pb-5">
+                <div className="col-12 col-md-6 col-lg-3 pb-5 ">
                     <h1> INFORMATION </h1>
                     <ul>
                         <li>
-                            <a href='#' className="a"> Our Stores </a>
+                            <a href='#' className="a"> • Our Stores </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Delivery Information </a>
+                            <a href='#' className="a"> • Delivery Information </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> About Us </a>
+                            <a href='#' className="a"> • About Us </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Terms and Conditions </a>
+                            <a href='#' className="a"> • Terms and Conditions </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Privacy Policy </a>
+                            <a href='#' className="a"> • Privacy Policy </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Contact Us </a>
+                            <a href='#' className="a"> • Contact Us </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Returns </a>
+                            <a href='#' className="a"> • Returns </a>
                         </li>
                     </ul>
                 </div>
@@ -42,25 +42,25 @@ const Footer = () => {
                     <h1> MY ACCOUNT </h1>
                     <ul>
                         <li>
-                            <a href='#' className="a"> My Account </a>
+                            <a href='#' className="a"> • My Account </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Order History </a>
+                            <a href='#' className="a"> • Order History </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> My Wishlist </a>
+                            <a href='#' className="a"> • My Wishlist </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Specials </a>
+                            <a href='#' className="a"> • Specials </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Track Order </a>
+                            <a href='#' className="a"> • Track Order </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> Gift Vouchers </a>
+                            <a href='#' className="a"> • Gift Vouchers </a>
                         </li>
                         <li>
-                            <a href='#' className="a"> My Credit Slips </a>
+                            <a href='#' className="a"> • My Credit Slips </a>
                         </li>
                     </ul>
                 </div>

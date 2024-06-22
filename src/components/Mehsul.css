@@ -1,243 +1,495 @@
-.mehsuladi{
-    background-color: black;
-}
-
-.Hundurluk {
-    width: 270px ;
-    height: 319px;
-}
-
-.latest{
-    background: #f7f7f7;
-}
-
-.card-body {
-    flex: 1 1 auto;
-    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-    color: var(--bs-card-color); 
-    background: #f7f7f7;
-}
-
-.arial{
+@media(min-width: 320px){
     
+
+    .mehsuladi{
+        background-color: black;
+    }
+    
+    .Hundurluk {
+        width: 270px ;
+        height: 319px;
+    }
+    
+    .latest{
+        background: #f7f7f7;
+    }
+    
+    .card-body {
+        flex: 1 1 auto;
+        padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+        color: var(--bs-card-color); 
+        background: #f7f7f7;
+    }
+    
+    .arial{
+        
+        font-size: 16px;
+        display: block;
+        margin: 0 0 5px;
+        color: #ea5748;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-align: center;
+    
+    
+    }
+    
+    .high-price{
     font-size: 16px;
-    display: block;
-    margin: 0 0 5px;
-    color: #ea5748;
-    font-family: 'Noticia Text';
-    font-weight: bold;
-    text-align: center;
+        display: block;
+        margin: 0 0 5px;
+        color: #7f7f7f;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-align: center;
+        text-decoration: line-through;
+        margin: 0 110px 0 0;
+    
+    }
+    
+    .span{
+        font-size: 16px;
+        display: block;
+        color: #7f7f7f;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-align: center;
+        text-decoration: line-through;
+        margin: 0 35px;
+    }
+    
+    
+    .brown{
+        font-size: 14px;
+        margin: 0 0 8px;
+        color: #000;
+    
+        text-align: center;
+    }
+    
+    .holder{
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .filter ul {
+        display: table;
+        margin: 0 auto;
+        background: #f7f7f7;
+        padding: 10px;
+        position: relative;
+        display: grid;
+        text-align: center;
+    }
+    
+    .filter li {
+        display: inline-block;
+    }
+    
+    .filter a {
+        color: #919191;
+        font-size: 20px;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .filter a.active {
+        color: #000;
+    }
+    
+      .new{
+        width: auto !important;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    
+    .out{
+        width: 100% !important;
+        position: absolute;
+        top: 40%;
+        right: 0px;
+    }
+    
+    .middle-content {
+        padding: 50px 0;
+        background: #fff;
+    }
+    
+    .middle-content h1 {
+        color: #ea5748;
+    }
+    
+    .middle-content span {
+        color: #000;
+    }
+    
+    .middle-shipp p {
+        /* font-family: 'Playfair Display'; */
+        font-size: 15px;
+        color: #000;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: #fff;
+        position: relative;
+    }
+    
+    .middle-content h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #ea5748;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .mid-border {
+        border-top: 1px solid #dbdbdb;
+        width: 50%;
+        margin: -20px auto 0;
+    }
+    
+    .arrival-mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        text-align: center;
+        opacity: 0;
+        filter: alpha(opacity = 0);
+        background: rgba(0, 0, 0, .4);
+    }
+    
+    .button-red {
+        background-color: #ea5748;
+    }
+    
+    .wishlist {
+        text-align: center;
+        color: #fff;
+        font-family: 'Merriweather';
+        font-style: italic;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .medium-button {
+        width: 169px;
+        padding: 10px 0;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        font-family: 'Merriweather';
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .add-cart {
+        margin: 35% auto 20px;
+    }
+    a {
+        text-decoration: none !important;
+        transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -webkit-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        outline: none !important;
+    }
+    
+    .arrival-mask i {
+        margin-right: 5px;
+    }
 
+    
+    .compare {
+        text-align: center;
+        color: #fff;
+        font-family: 'Merriweather';
+        font-style: italic;
+        display: block;
+    }
+    
+    .arrival-mask i {
+        margin-right: 5px;
+    }
 
+    .fa-star:before {
+        content: " ";
+    }
+
+    .arrival-mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        text-align: center;
+        opacity: 0;
+        filter: alpha(opacity = 0);
+        background: rgba(0, 0, 0, .4);
+    }
+
+    .fa-star:before {
+        content: " ";
+    }
+    
 }
 
-.high-price{
-font-size: 16px;
-    display: block;
-    margin: 0 0 5px;
-    color: #7f7f7f;
-    font-family: 'Noticia Text';
-    font-weight: bold;
-    text-align: center;
-    text-decoration: line-through;
-    margin: 0 110px 0 0;
+@media(min-width: 1200px){
+    .mehsuladi{
+        background-color: black;
+    }
 
-}
+    .fa-star:before {
+        content: "\f005";
+    }
 
-.span{
+    .fa-star:before {
+        content: "\f005";
+    }
+
+    .Hundurluk {
+        width: 270px ;
+        height: 319px;
+    }
+    
+    .latest{
+        background: #f7f7f7;
+    }
+    
+    .card-body {
+        flex: 1 1 auto;
+        padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+        color: var(--bs-card-color); 
+        background: #f7f7f7;
+    }
+    
+    .arial{
+        
+        font-size: 16px;
+        display: block;
+        margin: 0 0 5px;
+        color: #ea5748;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-align: center;
+    
+    
+    }
+    
+    .high-price{
     font-size: 16px;
-    display: block;
-    color: #7f7f7f;
-    font-family: 'Noticia Text';
-    font-weight: bold;
-    text-align: center;
-    text-decoration: line-through;
-    margin: 0 35px;
+        display: block;
+        margin: 0 0 5px;
+        color: #7f7f7f;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-align: center;
+        text-decoration: line-through;
+        margin: 0 110px 0 0;
+    
+    }
+    
+    .span{
+        font-size: 16px;
+        display: block;
+        color: #7f7f7f;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-align: center;
+        text-decoration: line-through;
+        margin: 0 35px;
+    }
+    
+    
+    .brown{
+        font-size: 14px;
+        margin: 0 0 8px;
+        color: #000;
+    
+        text-align: center;
+    }
+    
+    .holder{
+        position: relative;
+        margin-bottom: 50px;
+    }
+    
+    .filter ul {
+        display: table;
+        margin: 0 auto;
+        background: #f7f7f7;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .filter li {
+        display: inline-block;
+    }
+    
+    .filter a {
+        color: #919191;
+        font-size: 20px;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .filter a.active {
+        color: #000;
+    }
+    
+      .new{
+        width: auto !important;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    
+    .out{
+        width: 100% !important;
+        position: absolute;
+        top: 40%;
+        right: 0px;
+    }
+    
+    .middle-content {
+        padding: 50px 0;
+        background: #fff;
+    }
+    
+    .middle-content h1 {
+        color: #ea5748;
+    }
+    
+    .middle-content span {
+        color: #000;
+    }
+    
+    .middle-shipp p {
+        /* font-family: 'Playfair Display'; */
+        font-size: 15px;
+        color: #000;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: #fff;
+        position: relative;
+    }
+    
+    .middle-content h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #ea5748;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .mid-border {
+        border-top: 1px solid #dbdbdb;
+        width: 50%;
+        margin: -20px auto 0;
+    }
+    
+    .arrival-mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        text-align: center;
+        opacity: 0;
+        filter: alpha(opacity = 0);
+        background: rgba(0, 0, 0, .4);
+    }
+    
+    .button-red {
+        background-color: #ea5748;
+    }
+    
+    .wishlist {
+        text-align: center;
+        color: #fff;
+        font-family: 'Merriweather';
+        font-style: italic;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .medium-button {
+        width: 169px;
+        padding: 10px 0;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        font-family: 'Merriweather';
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .add-cart {
+        margin: 35% auto 20px;
+    }
+    a {
+        text-decoration: none !important;
+        transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        -webkit-transition: all 0.1s ease-in-out;
+        -o-transition: all 0.1s ease-in-out;
+        outline: none !important;
+    }
+    
+    .arrival-mask i {
+        margin-right: 5px;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px / 1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .compare {
+        text-align: center;
+        color: #fff;
+        font-family: 'Merriweather';
+        font-style: italic;
+        display: block;
+    }
+    
+    .arrival-mask i {
+        margin-right: 5px;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px / 1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .arrival-mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        text-align: center;
+        opacity: 0;
+        filter: alpha(opacity = 0);
+        background: rgba(0, 0, 0, .4);
+    }
+    
 }
-
-
-.brown{
-    font-size: 14px;
-    margin: 0 0 8px;
-    color: #000;
-
-    text-align: center;
-}
-
-.holder{
-    position: relative;
-    margin-bottom: 50px;
-}
-
-.filter ul {
-    display: table;
-    margin: 0 auto;
-    background: #f7f7f7;
-    padding: 10px;
-    position: relative;
-}
-
-.filter li {
-    display: inline-block;
-}
-
-.filter a {
-    color: #919191;
-    font-size: 20px;
-    font-family: 'Noticia Text';
-    font-weight: bold;
-    text-transform: uppercase;
-    display: block;
-    text-decoration: none;
-}
-
-.filter a.active {
-    color: #000;
-}
-
-  .new{
-    width: auto !important;
-    position: absolute;
-    top: 20px;
-    right: 10px;
-}
-
-.out{
-    width: 100% !important;
-    position: absolute;
-    top: 40%;
-    right: 0px;
-}
-
-.middle-content {
-    padding: 50px 0;
-    background: #fff;
-}
-
-.middle-content h1 {
-    color: #ea5748;
-}
-
-.middle-content span {
-    color: #000;
-}
-
-.middle-shipp p {
-    /* font-family: 'Playfair Display'; */
-    font-size: 15px;
-    color: #000;
-    margin: 8px auto 0;
-    text-align: center;
-    display: table;
-    padding: 10px;
-    background: #fff;
-    position: relative;
-}
-
-.middle-content h1 {
-    font-family: 'Playfair Display';
-    font-size: 35px;
-    font-weight: bold;
-    font-style: italic;
-    color: #ea5748;
-    text-align: center;
-    margin: 0;
-}
-
-.mid-border {
-    border-top: 1px solid #dbdbdb;
-    width: 50%;
-    margin: -20px auto 0;
-}
-
-.arrival-mask {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    text-align: center;
-    opacity: 0;
-    filter: alpha(opacity = 0);
-    background: rgba(0, 0, 0, .4);
-}
-
-.button-red {
-    background-color: #ea5748;
-}
-
-.wishlist {
-    text-align: center;
-    color: #fff;
-    font-family: 'Merriweather';
-    font-style: italic;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.medium-button {
-    width: 169px;
-    padding: 10px 0;
-    text-align: center;
-    display: block;
-    font-size: 13px;
-    font-family: 'Merriweather';
-    color: #fff;
-    text-transform: uppercase;
-}
-.add-cart {
-    margin: 35% auto 20px;
-}
-a {
-    text-decoration: none !important;
-    transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    outline: none !important;
-}
-
-.arrival-mask i {
-    margin-right: 5px;
-}
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.compare {
-    text-align: center;
-    color: #fff;
-    font-family: 'Merriweather';
-    font-style: italic;
-    display: block;
-}
-
-.arrival-mask i {
-    margin-right: 5px;
-}
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.arrival-mask {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0px;
-    text-align: center;
-    opacity: 0;
-    filter: alpha(opacity = 0);
-    background: rgba(0, 0, 0, .4);
-}
-

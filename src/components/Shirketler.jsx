@@ -1,17 +1,16 @@
 import React from 'react'
-import Shirket from './Shirket'
 
-import slider1 from '/assets/image/slider1.webp'
-import slider2 from '/assets/image/slider2.webp'
-import slider3 from '/assets/image/slider3.webp'
+import './Shirket.css'
 
-import sborde from '/assets/image/s-border.webp'
-
-import { Autoplay } from 'swiper/modules';
-
+// import Swiper JS
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+// import Swiper styles
 import 'swiper/css';
+
+import { Autoplay} from 'swiper/modules';
+
+
+// import required modules
 
 
 const Shirketler = () => {
@@ -19,39 +18,55 @@ const Shirketler = () => {
     <div className=''>
 
       <Swiper
-      slidesPerView={1}
-      spaceBetween={30}
-      centeredSlides={true}
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
       }}
-      breakpoints={{
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 1,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView:1,
-          spaceBetween: 50,
-        },
-      }}
-      modules={[Autoplay]}
+      
       className='mySwiper'
       >
-        <SwiperSlide><Shirket shekilXususiyyeti={slider1} metn="Hot Trends of This Year" img={sborde} paragraf="NEW AUTUMN COLLECTION" a="SHOP NOW"/></SwiperSlide>
-        <SwiperSlide><Shirket shekilXususiyyeti={slider2} metn="Hot Trends of This Year" img={sborde} paragraf="WINTER COLLECTION" a="SHOP NOW"/></SwiperSlide>
-        <SwiperSlide><Shirket shekilXususiyyeti={slider3} metn="Hot Trends of This Year"  paragraf="SUMMER TRENDS" img={sborde} a="SHOP NOW"/></SwiperSlide>
+      <SwiperSlide>
+      <div className="col-12 col-md-6 col-lg-12">
+      <div className="card text-bg-dark pb-0 ">
+        <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717607828/slider1_mtpiz3.webp" className="sabitHundurluk" alt="" />
+        <div className="card-img-overlay">
+          <h5 className="card-title">	Hot Trends of This Year	</h5>
+          <p><img src="/assets/image/s-border.webp" alt="" id='s-border'/> </p>
+          <p className="card-text">	NEW AUTUMN COLLECTION</p>
+          <a href="#" class="btn"> SHOP NOw </a>
+        </div>
+      </div>
+      </div>
+      </SwiperSlide>
 
+      <SwiperSlide>
+      <div className="col-12 col-md-6 col-lg-12">
+      <div className="card text-bg-dark pb-0 ">
+        <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717607827/slider2_vcjj5k.webp" className="sabitHundurluk" alt="" />
+        <div className="card-img-overlay">
+        <h5 className="card-title">	Hot Trends of This Year	</h5>
+          <p><img src="/assets/image/s-border.webp" alt="" id='s-border'/> </p>
+          <p className="card-text">	WINTER COLLECTION</p>
+          <a href="#" class="btn"> SHOP NOw </a>
+        </div>
+      </div>
+      </div>
+      </SwiperSlide>
 
-
-        
+      <SwiperSlide>
+      <div className="col-12 col-md-6 col-lg-12">
+      <div className="card text-bg-dark pb-0 ">
+        <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717607827/slider3_bqmusj.webp" className="sabitHundurluk" alt="" />
+        <div className="card-img-overlay">
+        <h5 className="card-title " id='h5' style={{color:"#000"}}>	Hot Trends of This Year	</h5>
+          <p className="card-text" style={{margin: "45px -522px 0 0", color: "#000"}}>	Summer<br/> <br/> <br/>Trends</p>
+          <p><img src="/assets/image/s-border.webp" alt="" id='s-border' style={{margin: "-22px 0 -24px 835px"}}/> </p>
+          <a href="#" id="button" class="btn"> SHOP NOw </a>
+        </div>
+      </div>
+      </div>
+      </SwiperSlide>
       </Swiper>
-
     </div>
     
   )

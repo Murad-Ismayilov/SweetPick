@@ -95,3 +95,22 @@
 .navbar{
   display: block;
 }
+
+
+/* Navbar.css */
+
+/* 320px ve altındaki cihazlarda form ve cart div'leri gizlenecek */
+@media (max-width: 320px) {
+  .d-flex .form-control,
+  .cart,
+  .card-icon {
+      display: none;
+  }
+
+
+  .logo-img{
+    text-align: center;
+    align-items: center;
+    margin: 0 0 -34px 50px;
+  }
+}

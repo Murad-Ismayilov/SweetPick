@@ -1,69 +1,74 @@
-import React from "react";
-import "./Mehsul.css";
+import React from 'react'
+
+import './SwMehsul.css'
+
+import { Autoplay, Navigation } from 'swiper/modules';
 
 // import Swiper JS
 import { Swiper, SwiperSlide } from "swiper/react";
+
 // import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-// import required modules
-import { Parallax, Pagination, Navigation } from "swiper/modules";
-
-const Mehsullar = () => {
+const SwMehsuls = () => {
   return (
     <>
-      <div className="latest  ">
+        <div className='feat-items '>
         <div className="container">
-          <div className="row">
-            <div class="filter clearfix">
-              <div class="holder">
-                <ul>
-                  <li>
-                    <a href="#" class="active" data-filter="*">
-                      All
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".class1">
-                      <i class="fa fa-star"></i> NEW ARRIVALS
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".class2">
-                      <i class="fa fa-star"></i> BESTSELLERS
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".class3">
-                      <i class="fa fa-star"></i> FEATURED{" "}
-                      <i class="fa fa-star"></i>
-                    </a>
-                  </li>
-                </ul>
-                <div class="holder-border"></div>
-              </div>
+            <div className="row">
+
+                <div className="div">
+                    <div className="ddsdf">
+                    <div>
+                        <h1> Featured Items </h1>
+                    </div>
+
+                    <div>
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    </div>
+                </div>
+
+                
             </div>
 
-            <Swiper
-              breakpoints={{
-                320: {
-                  slidesPerView: 1,
-                  spaceBetween: 20,
-                },
-                768: {
-                  slidesPerView: 4,
-                  spaceBetween: 40,
-                },
-                1024: {
-                  slidesPerView: 4,
-                  spaceBetween: 50,
-                },
-              }}
-              slidesPerView={4}
-              className="mySwiper"
-            >
+            </div>
+
+
+
+    </div>
+
+        <div className='py-5 SwMehsul'>
+        <div className="container">
+            <div className="row">
+
+                <Swiper
+                breakpoints={{
+                    320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    },
+                    768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                    },
+                    1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                    },
+                }}
+
+
+                  modules={[Autoplay, Navigation]}
+                slidesPerView={4}
+                navigation={{
+                    prevEl: '.fa-chevron-left',
+                    nextEl: '.fa-chevron-right',
+                }}
+                className='mySwiper'>
               <SwiperSlide>
                 <div className="col-12 col-md-6 col-lg-12">
                   <div class="card border-0 rounded-0">
@@ -175,23 +180,13 @@ const Mehsullar = () => {
               </SwiperSlide>
 
             </Swiper>
-          </div>
+            </div>
         </div>
-      </div>
 
-      <div class="middle-content">
-        <div class="container">
-          <h1>
-            FREE SHIPPING <span>ALL ORDERS OVER $150</span>
-          </h1>
-          <div class="middle-shipp">
-            <p>We will ship your item within 3 days</p>
-            <div class="mid-border"></div>
-          </div>
-        </div>
-      </div>
+    </div>
     </>
-  );
-};
+  )
+}
 
-export default Mehsullar;
+
+export default SwMehsuls

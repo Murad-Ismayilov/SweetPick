@@ -1,3 +1,10 @@
+.serv-box i {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
+
 .serv-box {
     background: #fff;
     padding: 20px;
@@ -7,8 +14,17 @@
 .serv-box h4 {
     text-transform: uppercase;
     color: #000;
+    font-family: 'Noticia Text';
     margin: 20px 0;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Noticia Text';
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
 }
+
+
 
 .serv-border {
     border-bottom: 2px solid #929292;
@@ -18,28 +34,22 @@
 
 .serv-box p {
     text-align: center;
-}
-p {
     font-size: 13px;
     color: #6b6b6b;
     margin: 0;
     line-height: 22px;
+    font-family: 'Merriweather';
 }
 
-.serv-box i {
-    color: #000;
-    font-size: 40px;
-    text-align: center;
-    display: block;
-    padding-top: 15px;
+
+.services {
+    padding: 60px 0;
 }
 
-.serv-box {
-    background: #fff;
-    padding: 10px;
-    text-align: center;
-}
 
-.services-box{
-    background-color: #f7f7f7;
+@media(min-width: 320px){
+    .services {
+        padding: 60px 0;
+        background-color: #f7f7f7;
+    }
 }

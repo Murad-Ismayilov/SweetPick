@@ -1,8 +1,12 @@
 import React from 'react'
+import Sing from '../components/Sing'
+
 
 const SingleProduct = () => {
   return (
-    <div>SingleProduct page</div>
+    <> 
+    <Sing/>
+    </>
   )
 }
 

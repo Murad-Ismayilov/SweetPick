@@ -73,66 +73,52 @@
 }
 
 
-.blog {
+@media(min-width:320px){
+  
+  .blog {
     border-bottom: 1px solid #dedede;
     padding: 20px 0;
-
+  
   }
-
+  
   .blog-left-side h3 {
     color: #FF8A56;
   }
-
+  
   .blog-right-side a {
     text-decoration: none;
     padding: 10px 0;
   }
 
-
-
-
-  .card-title{
-    color: #fff;
-    font-size: 16px;
-    display: block;
-    text-align: center;
-
-
-  }
-
-  .card-text{
-    font-size: 80px;
-    margin-left: 0;
-  }
-
-
-.coll-text {
+  
+  .coll-text {
   position: absolute;
     top: 50%;
     margin-top: -60px;
     text-align: center;
     width: 100%;
-}
-
-.coll-text p{
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
-  margin: 0;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.coll-text a {
+  }
+  
+  .coll-text p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 39px;
+  }
+  
+  .coll-text a {
   font-family: 'Noticia Text';
   color: #fff;
   text-transform: uppercase;
   font-size: 18px;
   text-decoration: none;
-}
-
-.coll-text i {
+  }
+  
+  .coll-text i {
   display: inline-block;
   width: 23px;
   height: 22px;
@@ -142,10 +128,10 @@
   border-radius: 50%;
   background: #fff;
   margin-left: 10px;
-
-}
-
-.coll-text i:hover {
+  
+  }
+  
+  .coll-text i:hover {
   display: inline-block;
   width: 23px;
   height: 22px;
@@ -155,5 +141,103 @@
   border-radius: 50%;
   background: #FF8A56;
   margin-left: 10px;
+  
+  }
+  
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    background: #f7f7f7;
+  }
+  
+  }
+
+
+
+@media(min-width:1200px){
+  
+.blog {
+  border-bottom: 1px solid #dedede;
+  padding: 20px 0;
+
+}
+
+.blog-left-side h3 {
+  color: #FF8A56;
+}
+
+.blog-right-side a {
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+
+
+
+
+.card-text{
+  font-size: 80px;
+  margin-left: 0;
+}
+
+
+.coll-text {
+position: absolute;
+  top: 50%;
+  margin-top: -60px;
+  text-align: center;
+  width: 100%;
+}
+
+.coll-text p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 39px;
+}
+
+.coll-text a {
+font-family: 'Noticia Text';
+color: #fff;
+text-transform: uppercase;
+font-size: 18px;
+text-decoration: none;
+}
+
+.coll-text i {
+display: inline-block;
+width: 23px;
+height: 22px;
+line-height: 21.7px;
+text-align: center;
+color: #c2c3b5;
+border-radius: 50%;
+background: #fff;
+margin-left: 10px;
+
+}
+
+.coll-text i:hover {
+display: inline-block;
+width: 23px;
+height: 22px;
+line-height: 21.7px;
+text-align: center;
+color: #ffffff;
+border-radius: 50%;
+background: #FF8A56;
+margin-left: 10px;
+
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  background: #f7f7f7;
+}
 
 }

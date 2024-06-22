@@ -16,6 +16,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 
+
 function App() {
 
   return (
@@ -23,11 +24,11 @@ function App() {
       
       <BrowserRouter>
 
-
+      
       <Navbar/>
-
+      
       <Routes>
-
+        
         <Route path='/' element={<Home/>}/>
         <Route path='/Hometransparent' element={<HomeTransparent/>}/>
         <Route path='/Singleproduct' element={<SingleProduct/>}/>
