@@ -16,6 +16,7 @@ const BlogContainer = () => {
   };
 
   return (
+    <>
     <div id="content">
       <div className="blog-container">
         <div className="container">
@@ -341,42 +342,45 @@ const BlogContainer = () => {
 
             </div>
             
-            <div class="partners">
-		<div class="container">
-			<div class="row">
+            
 
-				
-				<div class="col-12 col-md-6 col-lg-12 kc">
-					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners1_zfdt47.webp" alt=""/></a>
-				</div>
-				
-				<div class="col-12 col-md-6 col-lg-12 kc">
-					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners2_v4b4lh.webp" alt=""/></a>
-				</div>
-		
-				<div class="col-12 col-md-6 col-lg-12 kc">
-					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners3_yxwmpo.webp" alt=""/></a>
-				</div>
-		
-				<div class="col-12 col-md-6 col-lg-12 kc">
-					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994620/partners4_k25edj.webp" alt=""/></a>
-				</div>
-			
-				<div class="col-12 col-md-6 col-lg-12 kc">
-					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994611/partners5_hrpmjb.webp" alt=""/></a>
-				</div>
-				
-				<div class="col-12 col-md-6 col-lg-12 kc">
-					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994717/partners6_etuvhm.webp" alt=""/></a>
-				</div>
-				
-			</div>
-		</div>
-	</div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="partners">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-12 col-md-6 col-lg-12 kc">
+                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners1_zfdt47.webp" alt=""/></a>
+                  </div>
+                  
+                  <div class="col-12 col-md-6 col-lg-12 kc">
+                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners2_v4b4lh.webp" alt=""/></a>
+                  </div>
+              
+                  <div class="col-12 col-md-6 col-lg-12 kc">
+                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners3_yxwmpo.webp" alt=""/></a>
+                  </div>
+              
+                  <div class="col-12 col-md-6 col-lg-12 kc">
+                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994620/partners4_k25edj.webp" alt=""/></a>
+                  </div>
+                
+                  <div class="col-12 col-md-6 col-lg-12 kc">
+                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994611/partners5_hrpmjb.webp" alt=""/></a>
+                  </div>
+                  
+                  <div class="col-12 col-md-6 col-lg-12 kc">
+                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994717/partners6_etuvhm.webp" alt=""/></a>
+                  </div>
+                  
+                </div>
+              </div>
+	          </div> 
+    </>
   );
 };
 
