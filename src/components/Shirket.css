@@ -32,6 +32,68 @@
     color: #fff;
     background-color: #ea5748;
   }
+
+  #h5{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 0 0 11px 0;
+  }
+
+  #text{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+  }
+
+}
+
+@media(min-width: 375px){
+  .card-title {
+    text-align: center;
+    margin: 3px 0 -3px 0;
+  }
+
+  p img#s-border {
+    text-align: center;
+    margin: 4px 0 -11px 84px;
+  }
+
+    .card-text {
+      color: #fff;
+      text-align: center;
+      font-size: 21px;
+      margin: 17px 0 -15px 0;
+  }
+
+    .btn {
+      width: 136px;
+      padding: 11px 0;
+      font-family: 'Merriweather';
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0);
+      border: solid 1px #e4e4e4;
+      display: block;
+      text-align: center;
+      margin: 23px 0 0 99px;
+  }
+
+  .btn:hover{
+    color: #fff;
+    background-color: #ea5748;
+  }
+
+  #h5{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 0 0 11px 0;
+  }
+
+  #text{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+  }
+
 }
 
 @media(min-width: 390px){
@@ -172,6 +234,11 @@ h1{
   width: 1697.67px;
   height: 730px;
  
+}
+
+#text{
+    margin: "45px -522px 0 0";    
+    color: #000;
 }
 
 }
@@ -316,6 +383,12 @@ p img#s-border{
   display: block;
   text-align: center;
   color: #000;
+}
+
+#text{
+  margin: 45px -522px 0 0 !important;   
+  color: #000;
+  
 }
 
 

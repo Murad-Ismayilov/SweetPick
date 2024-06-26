@@ -59,7 +59,7 @@ const Shirketler = () => {
         <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717607827/slider3_bqmusj.webp" className="sabitHundurluk" alt="" />
         <div className="card-img-overlay">
         <h5 className="card-title " id='h5' style={{color:"#000"}}>	Hot Trends of This Year	</h5>
-          <p className="card-text" style={{margin: "45px -522px 0 0", color: "#000"}}>	Summer<br/> <br/> <br/>Trends</p>
+          <p className="card-text text-p" id="text" style={{ color: "#000"}}>	Summer Trends</p>
           <p><img src="/assets/image/s-border.webp" alt="" id='s-border' style={{margin: "-22px 0 -24px 835px"}}/> </p>
           <a href="#" id="button" class="btn"> SHOP NOw </a>
         </div>

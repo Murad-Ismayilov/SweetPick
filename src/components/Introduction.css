@@ -72,3 +72,79 @@
         background-color: #ea5748;
     }
 }
+
+
+@media(min-width: 375px){
+    .bashliq{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .card-text{
+        color: #f7f7f7;
+        font-size: 13px;
+        margin: 0 0 0 520px;
+    }
+    
+    #button{
+        margin: 68px 0 0 494px;
+        width: 152px;
+        padding: 19px 0;
+        font-family: 'Merriweather';
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0);
+        border: solid 1px #e4e4e4;
+        display: block;
+        text-align: center;
+    }
+    
+    #butn{
+        margin: -66px 0 0 660px;
+        width: 152px;
+        padding: 19px 0;
+        font-family: 'Merriweather';
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0);
+        border: solid 1px #e4e4e4;
+        display: block;
+        text-align: center;
+    }
+    
+    .card-paragraf{
+        color: #fff;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 100px 0;
+        font-size: 70px;
+    }
+    
+    .card-article{
+        color: #f7f7f7;
+        font-size: 13px;
+        margin: 0 0 0 520px;
+    }
+    
+    article {
+    
+        font-size: 13px;
+        color: #e6dfdf;
+        margin: 0;
+        display: block;
+    }
+    
+    
+    a#butn:hover {
+        border: 0;
+        background-color: #ea5748;
+    }
+    
+    
+    a#button:hover {
+        border: 0;
+        background-color: #ea5748;
+    }
+}

@@ -1,21 +1,18 @@
-import React from 'react'
-
-import './Sing.css'
-
-
+import React, { useState } from 'react';
+import './Sing.css';
 import { Autoplay, Navigation } from 'swiper/modules';
-
-
-
-// import Swiper JS
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const Sing = () => {
+  const [selectedImage, setSelectedImage] = useState("https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp");
+
+  const handleImageClick = (image) => {
+    setSelectedImage(image);
+  }
+
   return (
     <>
     <div id="content">
@@ -25,55 +22,29 @@ const Sing = () => {
     <div class="row">
         <div class="col-md-6">
         <div class="single-img">
-            <div class="sp-wrap" style={{display:"inline-block"}}>
-            <div className="sp-large">
-                <Swiper 
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
-             
-                  modules={[Autoplay]}
-                className='mySwiper'
-                >
-                <SwiperSlide>
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp" > <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp" alt="" className='sp-current-big' /> </a>
-                </SwiperSlide>
-                <SwiperSlide>
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/2_tb_igwsyx.webp"> <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/2_tb_igwsyx.webp" alt="" /> </a>
-                </SwiperSlide>
-                <SwiperSlide>
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp"> <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp" alt="" className='sp-current-big' /> </a>
-                </SwiperSlide>
-                </Swiper>
-            </div>
-            <div className="sp-thumbs sp-tb-active">
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp" className='sp-current sing'>
-                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp" alt="" className='sing-img'/>
-                </a>
-
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/2_tb_igwsyx.webp" className='sing' >
-                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/2_tb_igwsyx.webp" alt="" className='sing-img'/>
-                </a>
-
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/3_tb_equqap.webp" className='sing'>
-                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/3_tb_equqap.webp" alt="" className='sing-img'/>
-                </a>
-
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/4_tb_ubfzeh.webp" className='sing'>
-                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/4_tb_ubfzeh.webp" alt="" className='sing-img'/>
-                </a>
-
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/5_tb_wyk583.webp" className='sing'>
-                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/5_tb_wyk583.webp" alt="" className='sing-img'/>
-                </a>
-
-                <a href="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/6_tb_ps1o6c.webp" className='sing'>
-                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/6_tb_ps1o6c.webp" alt="" className='sing-img'/>
-                </a>
-
-            </div>
-            </div>
+        <div className="sp-large">
+                  <img src={selectedImage} alt="" className='sp-current-big' />
+                </div>
+                <div className="sp-thumbs sp-tb-active">
+                  <a onClick={() => handleImageClick("https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp")} className='sp-current sing'>
+                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/1_tb_tfycaq.webp" alt="" className='sing-img' />
+                  </a>
+                  <a onClick={() => handleImageClick("https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/2_tb_igwsyx.webp")} className='sing'>
+                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/2_tb_igwsyx.webp" alt="" className='sing-img' />
+                  </a>
+                  <a onClick={() => handleImageClick("https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/3_tb_equqap.webp")} className='sing'>
+                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/3_tb_equqap.webp" alt="" className='sing-img' />
+                  </a>
+                  <a onClick={() => handleImageClick("https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/4_tb_ubfzeh.webp")} className='sing'>
+                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/4_tb_ubfzeh.webp" alt="" className='sing-img' />
+                  </a>
+                  <a onClick={() => handleImageClick("https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/5_tb_wyk583.webp")} className='sing'>
+                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/5_tb_wyk583.webp" alt="" className='sing-img' />
+                  </a>
+                  <a onClick={() => handleImageClick("https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/6_tb_ps1o6c.webp")} className='sing'>
+                    <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717831115/6_tb_ps1o6c.webp" alt="" className='sing-img' />
+                  </a>
+                </div>
             <div id="test"></div>
         </div>
         </div>
@@ -204,7 +175,7 @@ const Sing = () => {
         <div className="row">
 
             <div className="div">
-                <div className="ddsdf">
+                <div className="ddsdf" >
                 <div>
                     <h1> RELATED ITEMS </h1>
                 </div>

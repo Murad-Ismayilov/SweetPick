@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import './BlogContainer.css';
 
-import {Pagination, Navigation } from 'swiper/modules';
+import {Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 // import Swiper JS
 import { Swiper, SwiperSlide } from "swiper/react";
 // import Swiper styles
 import 'swiper/css';
+
+
+
 
 const BlogContainer = () => {
   const [activeTab, setActiveTab] = useState('description');
@@ -229,8 +232,8 @@ const BlogContainer = () => {
                   <li class="">
                     <a href="#"> 5 </a>
                   </li>
-                  <li class="">
-                    <a href="#"> > </a>
+                  <li class="sagok">
+                    <a href="#">  </a>
                   </li>
                 </ul>
               </div>
@@ -350,36 +353,73 @@ const BlogContainer = () => {
     </div>
 
     <div class="partners">
-              <div class="container">
-                <div class="row">
+		<div class="container">
+			<div class="row">
 
-                  <div class="col-12 col-md-6 col-lg-12 kc">
-                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners1_zfdt47.webp" alt=""/></a>
-                  </div>
-                  
-                  <div class="col-12 col-md-6 col-lg-12 kc">
-                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners2_v4b4lh.webp" alt=""/></a>
-                  </div>
-              
-                  <div class="col-12 col-md-6 col-lg-12 kc">
-                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners3_yxwmpo.webp" alt=""/></a>
-                  </div>
-              
-                  <div class="col-12 col-md-6 col-lg-12 kc">
-                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994620/partners4_k25edj.webp" alt=""/></a>
-                  </div>
-                
-                  <div class="col-12 col-md-6 col-lg-12 kc">
-                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994611/partners5_hrpmjb.webp" alt=""/></a>
-                  </div>
-                  
-                  <div class="col-12 col-md-6 col-lg-12 kc">
-                    <a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994717/partners6_etuvhm.webp" alt=""/></a>
-                  </div>
-                  
-                </div>
-              </div>
-	          </div> 
+				<Swiper 
+				slidesPerView={6}
+				autoplay={{
+					delay: 2500,
+					disableOnInteraction: false,
+				}}
+				breakpoints={{
+                    320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    },
+                    768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                    },
+                    1024: {
+                    slidesPerView: 6,
+                    spaceBetween: 50,
+                    },
+                }}
+				modules={[Autoplay]}
+				className='mySwiper'
+				>
+
+				<SwiperSlide>
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners1_zfdt47.webp" alt=""/></a>
+				</div>
+				</SwiperSlide>
+
+				<SwiperSlide>
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners2_v4b4lh.webp" alt=""/></a>
+				</div>
+				</SwiperSlide>
+
+				<SwiperSlide>
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners3_yxwmpo.webp" alt=""/></a>
+				</div>
+				</SwiperSlide>
+
+				<SwiperSlide>
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994620/partners4_k25edj.webp" alt=""/></a>
+				</div>
+				</SwiperSlide>
+
+				<SwiperSlide>
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994611/partners5_hrpmjb.webp" alt=""/></a>
+				</div>
+				</SwiperSlide>
+
+				<SwiperSlide>
+				<div class="col-12 col-md-6 col-lg-12 kc">
+					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994717/partners6_etuvhm.webp" alt=""/></a>
+				</div>
+				</SwiperSlide>
+
+				</Swiper>
+			</div>
+		</div>
+	</div>
     </>
   );
 };
