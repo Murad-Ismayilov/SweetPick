@@ -3,11 +3,23 @@
         background: #f7f7f7;
         padding: 50px 0;
     }
-    
+
+    .title .hi {
+        color: #000;
+        font-size: 28px;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 0 0 30px 0;
+        background: #f7f7f7;
+        margin: 0 auto;
+    }
+
     .title{
         margin-bottom: 50px;
     }
-    
+
     .title h1 {
         color: #000;
         font-size: 28px;
@@ -18,34 +30,33 @@
         padding: 10px;
         margin: 0 auto;
     }
-    
+
     .title i {
         padding: 15px;
         font-size: 16px;
         color: #000;
         vertical-align: 3px;
     }
-    
-    
+
     .title-border{
         border-top: 1px solid #929292;
         margin-top: -50px;
     }
-    
+
     .subtitle {
         text-align: center;
         width: 70%;
         margin: 0 auto 40px;
         font-size: 15px;
     }
-    
+
     .subtitle p {
         color: #6b6b6b;
         margin: 0;
         line-height: 22px;
         font-family: 'Merriweather';
     }
-    
+
     .contact h2 {
         font-family: 'Noticia Text';
         font-size: 18px;
@@ -54,23 +65,23 @@
         margin: 0 0 20px;
         text-transform: uppercase;
     }
-    
+
     .touch p i {
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p i:hover{
         color: rgb(255, 0, 0);
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p i {
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p {
         margin-bottom: 10px;
         font-size: 15px;
@@ -79,13 +90,12 @@
         line-height: 22px;
         padding: 0 0 10px 0;
     }
-    
-    
+
     .touch li {
         display: inline;
         margin-right: 5px;
     }
-    
+
     .touch ul i {
         color: #969696;
         font-size: 14px;
@@ -96,7 +106,7 @@
         text-align: center;
         background: #fff;
     }
-    
+
     .touch ul i:hover {
         color: #ff0000;
         font-size: 14px;
@@ -107,7 +117,7 @@
         text-align: center;
         background: #fff;
     }
-    
+
     .form{
         width: 100%;
         text-indent: 15px;
@@ -117,16 +127,16 @@
         color: #000;
         
     }
-    
+
     .form-control{
         border-radius: 0;
         color: #000;
     }
-    
+
     #message{
         height: 130px;
     }
-    
+
     .button-red{
         width: 169px;
         padding: 10px 0;
@@ -139,20 +149,19 @@
         border: 0;
         margin: 30px 0 0 0;
     }
-    
+
     textarea{
         resize: none;
     }
-    
+
     .form-control::placeholder{
         color: #000 !important;
     }
-    
-    
+
     .is-invalid {
         border-color: red;
     }
-    
+
     .error-message {
         color: red;
         /* font-size: 0.9em; */
@@ -161,7 +170,180 @@
         margin-left: -11px;
     
     }
+}
+
+@media(min-width: 360px){
+    .contact {
+        background: #f7f7f7;
+        padding: 50px 0;
+    }
+
+    .title .hi {
+        color: #000;
+        font-size: 28px;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 0 0 30px 0;
+        background: #f7f7f7;
+        margin: 0 auto;
+    }
+
+    .title{
+        margin-bottom: 50px;
+    }
+
+    .title h1 {
+        color: #000;
+        font-size: 28px;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .title i {
+        padding: 15px;
+        font-size: 16px;
+        color: #000;
+        vertical-align: 3px;
+    }
+
+    .title-border{
+        border-top: 1px solid #929292;
+        margin-top: -50px;
+    }
+
+    .subtitle {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto 40px;
+        font-size: 15px;
+    }
+
+    .subtitle p {
+        color: #6b6b6b;
+        margin: 0;
+        line-height: 22px;
+        font-family: 'Merriweather';
+    }
+
+    .contact h2 {
+        font-family: 'Noticia Text';
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+    }
+
+    .touch p i {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .touch p i:hover{
+        color: rgb(255, 0, 0);
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .touch p i {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .touch p {
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #6b6b6b;
+        margin: 0;
+        line-height: 22px;
+        padding: 0 0 10px 0;
+    }
+
+    .touch li {
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .touch ul i {
+        color: #969696;
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+        background: #fff;
+    }
+
+    .touch ul i:hover {
+        color: #ff0000;
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+        background: #fff;
+    }
+
+    .form{
+        width: 100%;
+        text-indent: 15px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        font-size: 13px;
+        color: #000;
+        
+    }
+
+    .form-control{
+        border-radius: 0;
+        color: #000;
+    }
+
+    #message{
+        height: 130px;
+    }
+
+    .button-red{
+        width: 169px;
+        padding: 10px 0;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        font-family: 'Merriweather';
+        color: #fff;
+        text-transform: uppercase;
+        border: 0;
+        margin: 30px 0 0 0;
+    }
+
+    textarea{
+        resize: none;
+    }
+
+    .form-control::placeholder{
+        color: #000 !important;
+    }
+
+    .is-invalid {
+        border-color: red;
+    }
+
+    .error-message {
+        color: red;
+        /* font-size: 0.9em; */
+        margin-top: -1px;
+        margin-bottom: 20px;
+        margin-left: -11px;
     
+    }
 }
 
 @media(min-width: 375px){
@@ -169,11 +351,23 @@
         background: #f7f7f7;
         padding: 50px 0;
     }
-    
+
+    .title .hi {
+        color: #000;
+        font-size: 28px;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 0 0 30px 0;
+        background: #f7f7f7;
+        margin: 0 auto;
+    }
+
     .title{
         margin-bottom: 50px;
     }
-    
+
     .title h1 {
         color: #000;
         font-size: 28px;
@@ -184,34 +378,33 @@
         padding: 10px;
         margin: 0 auto;
     }
-    
+
     .title i {
         padding: 15px;
         font-size: 16px;
         color: #000;
         vertical-align: 3px;
     }
-    
-    
+
     .title-border{
         border-top: 1px solid #929292;
         margin-top: -50px;
     }
-    
+
     .subtitle {
         text-align: center;
         width: 70%;
         margin: 0 auto 40px;
         font-size: 15px;
     }
-    
+
     .subtitle p {
         color: #6b6b6b;
         margin: 0;
         line-height: 22px;
         font-family: 'Merriweather';
     }
-    
+
     .contact h2 {
         font-family: 'Noticia Text';
         font-size: 18px;
@@ -220,23 +413,23 @@
         margin: 0 0 20px;
         text-transform: uppercase;
     }
-    
+
     .touch p i {
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p i:hover{
         color: rgb(255, 0, 0);
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p i {
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p {
         margin-bottom: 10px;
         font-size: 15px;
@@ -245,13 +438,12 @@
         line-height: 22px;
         padding: 0 0 10px 0;
     }
-    
-    
+
     .touch li {
         display: inline;
         margin-right: 5px;
     }
-    
+
     .touch ul i {
         color: #969696;
         font-size: 14px;
@@ -262,7 +454,7 @@
         text-align: center;
         background: #fff;
     }
-    
+
     .touch ul i:hover {
         color: #ff0000;
         font-size: 14px;
@@ -273,7 +465,7 @@
         text-align: center;
         background: #fff;
     }
-    
+
     .form{
         width: 100%;
         text-indent: 15px;
@@ -283,16 +475,16 @@
         color: #000;
         
     }
-    
+
     .form-control{
         border-radius: 0;
         color: #000;
     }
-    
+
     #message{
         height: 130px;
     }
-    
+
     .button-red{
         width: 169px;
         padding: 10px 0;
@@ -305,20 +497,19 @@
         border: 0;
         margin: 30px 0 0 0;
     }
-    
+
     textarea{
         resize: none;
     }
-    
+
     .form-control::placeholder{
         color: #000 !important;
     }
-    
-    
+
     .is-invalid {
         border-color: red;
     }
-    
+
     .error-message {
         color: red;
         /* font-size: 0.9em; */
@@ -327,7 +518,6 @@
         margin-left: -11px;
     
     }
-    
 }
 
 @media(min-width: 1200px){
@@ -335,11 +525,23 @@
         background: #f7f7f7;
         padding: 50px 0;
     }
-    
+
+    .title .hi {
+        color: #000;
+        font-size: 28px;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 0 0 10px 0;
+        background: #f7f7f7;
+        margin: 0 auto;
+    }
+
     .title{
         margin-bottom: 50px;
     }
-    
+
     .title h1 {
         color: #000;
         font-size: 28px;
@@ -350,34 +552,33 @@
         padding: 10px;
         margin: 0 auto;
     }
-    
+
     .title i {
         padding: 15px;
         font-size: 16px;
         color: #000;
         vertical-align: 3px;
     }
-    
-    
+
     .title-border{
         border-top: 1px solid #929292;
         margin-top: -50px;
     }
-    
+
     .subtitle {
         text-align: center;
         width: 70%;
         margin: 0 auto 40px;
         font-size: 15px;
     }
-    
+
     .subtitle p {
         color: #6b6b6b;
         margin: 0;
         line-height: 22px;
         font-family: 'Merriweather';
     }
-    
+
     .contact h2 {
         font-family: 'Noticia Text';
         font-size: 18px;
@@ -386,23 +587,23 @@
         margin: 0 0 20px;
         text-transform: uppercase;
     }
-    
+
     .touch p i {
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p i:hover{
         color: rgb(255, 0, 0);
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p i {
         font-size: 15px;
         margin-right: 10px;
     }
-    
+
     .touch p {
         margin-bottom: 10px;
         font-size: 15px;
@@ -411,13 +612,12 @@
         line-height: 22px;
         padding: 0 0 10px 0;
     }
-    
-    
+
     .touch li {
         display: inline;
         margin-right: 5px;
     }
-    
+
     .touch ul i {
         color: #969696;
         font-size: 14px;
@@ -428,7 +628,7 @@
         text-align: center;
         background: #fff;
     }
-    
+
     .touch ul i:hover {
         color: #ff0000;
         font-size: 14px;
@@ -439,7 +639,7 @@
         text-align: center;
         background: #fff;
     }
-    
+
     .form{
         width: 100%;
         text-indent: 15px;
@@ -449,16 +649,16 @@
         color: #000;
         
     }
-    
+
     .form-control{
         border-radius: 0;
         color: #000;
     }
-    
+
     #message{
         height: 130px;
     }
-    
+
     .button-red{
         width: 169px;
         padding: 10px 0;
@@ -471,20 +671,19 @@
         border: 0;
         margin: 30px 0 0 0;
     }
-    
+
     textarea{
         resize: none;
     }
-    
+
     .form-control::placeholder{
         color: #000 !important;
     }
-    
-    
+
     .is-invalid {
         border-color: red;
     }
-    
+
     .error-message {
         color: red;
         /* font-size: 0.9em; */
@@ -493,5 +692,4 @@
         margin-left: -11px;
     
     }
-    
 }

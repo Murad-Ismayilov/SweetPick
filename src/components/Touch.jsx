@@ -72,7 +72,7 @@ const Touch = () => {
         <div className='contact'>
             <div className="container">
                 <div className="title">
-                    <h1><i className="fa fa-star"></i> GET IN TOUCH  <i className="fa fa-star"></i></h1>
+                    <h1 className='hi'><i className="fa fa-star"></i> GET IN TOUCH  <i className="fa fa-star"></i></h1>
                     <div className="title-border"></div>
                 </div>
                 <p className="subtitle">But unfortunately for most of us our role as gardener has never been explained to us. And in misunderstanding our role, we have allowed seeds of all types, both good and bad, to enter our inner garden.</p>

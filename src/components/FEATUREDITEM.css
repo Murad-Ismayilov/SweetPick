@@ -1,3 +1,36 @@
+@media(min-width: 320px){
+  .feat-items h1 {
+    font-family: 'Noticia Text';
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 20px;
+}
+}
+
+@media(min-width: 360px){
+  .feat-items h1 {
+    font-family: 'Noticia Text';
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 20px;
+}
+}
+
+@media(min-width: 375px){
+  .feat-items h1 {
+    font-family: 'Noticia Text';
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 20px;
+}
+}
+
 @media(min-width: 1200px){
   .SwMehsul{
     background: #f7f7f7;
@@ -54,26 +87,4 @@
   border: 0;
 }
 
-}
-
-@media(min-width: 320px){
-  .feat-items h1 {
-    font-family: 'Noticia Text';
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000;
-    padding-bottom: 20px;
-}
-}
-
-@media(min-width: 375px){
-  .feat-items h1 {
-    font-family: 'Noticia Text';
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000;
-    padding-bottom: 20px;
-}
 }

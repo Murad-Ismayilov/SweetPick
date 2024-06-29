@@ -18,7 +18,7 @@ const TESTIMONIALS = () => {
             <div className="row">
 
             <div class="title">
-                <h1><i class="fa fa-star"></i> TESTIMONIALS <i class="fa fa-star"></i></h1>
+                <h1 className='hi'><i class="fa fa-star"></i> TESTIMONIALS <i class="fa fa-star"></i></h1>
                 <div class="title-border"></div>
             </div>
 

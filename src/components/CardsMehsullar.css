@@ -1,4 +1,3 @@
-
 @media(min-width: 320px){
     .partners{
         text-align: center;
@@ -58,6 +57,123 @@
     }
 }
 
+@media(min-width: 360px){
+    .partners{
+        text-align: center;
+    }
+    .feature-prods {
+        padding: 55px 0;
+    }
+    
+    .feature-prods {
+        padding: 55px 0;
+    }
+    
+    .fprod-item h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000;
+        border-bottom: 1px solid #d4d4d4;
+        padding-bottom: 20px;
+        margin: 0 0 20px;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .fprod-item li {
+        margin-bottom: 70px;
+    }
+    
+    .fprod-item li img {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .fproditem-text h3 {
+        font-size: 12px;
+        color: #000;
+        margin: 0 0 7px;
+    }
+    
+    .price-h {
+        color: #ea5748;
+    }
+    .price-h {
+        font-size: 16px;
+        display: block;
+        margin: 0 0 7px;
+        color: #ea5748;
+        font-weight: bold;
+    }
+    
+    .clear {
+        clear: both;
+    }
+}
+
+@media(min-width: 375px){
+    .partners{
+        text-align: center;
+    }
+    .feature-prods {
+        padding: 55px 0;
+    }
+    
+    .feature-prods {
+        padding: 55px 0;
+    }
+    
+    .fprod-item h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000;
+        border-bottom: 1px solid #d4d4d4;
+        padding-bottom: 20px;
+        margin: 0 0 20px;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .fprod-item li {
+        margin-bottom: 70px;
+    }
+    
+    .fprod-item li img {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .fproditem-text h3 {
+        font-size: 12px;
+        color: #000;
+        margin: 0 0 7px;
+    }
+    
+    .price-h {
+        color: #ea5748;
+    }
+    .price-h {
+        font-size: 16px;
+        display: block;
+        margin: 0 0 7px;
+        color: #ea5748;
+        font-weight: bold;
+    }
+    
+    .clear {
+        clear: both;
+    }
+}
 
 @media(min-width: 1200px){
     .feature-prods {
