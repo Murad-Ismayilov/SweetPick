@@ -81,7 +81,7 @@ const FromBlog = () => {
 		</div>
 	</div>
 	<div className="call-to-action pb-5">
-			<h1> You will find more items in our store. </h1>
+			<h1 className='call'> You will find more items in our store. </h1>
 			<p> You can put any important text for your customer here. This is call to action area. </p>
 			<a href="" class="medium-button button-red"> go shopping </a>
 	</div>
