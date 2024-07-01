@@ -50,6 +50,9 @@
 
   }
 
+  .ddsdf .solid{
+    padding: 45px 0 0 0;
+  }
 
   .card {
     border: 0;
@@ -289,6 +292,10 @@
     height: 40px;
     margin: 10px;
     cursor: pointer;
+  }
+
+  .ddsdf .fa-chevron{
+    padding: 0 0 0 0;
   }
 
   .new {

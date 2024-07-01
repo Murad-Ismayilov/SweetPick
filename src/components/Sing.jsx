@@ -180,7 +180,7 @@ const Sing = () => {
                     <h1> RELATED ITEMS </h1>
                 </div>
 
-                <div>
+                <div className='solid'>
                 <i class="fa-solid fa-chevron-left"></i>
                 <i class="fa-solid fa-chevron-right"></i>
                 </div>

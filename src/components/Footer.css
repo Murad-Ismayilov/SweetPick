@@ -361,6 +361,14 @@
     
     .copyright a {
         color: #e6dfdf;
+        display: contents;
     }
-    
+
+    .Newsletter::placeholder{
+        color: #ffffff !important;
+        font-size: 12px !important;
+        opacity: .5;
+    }
+
+
 }

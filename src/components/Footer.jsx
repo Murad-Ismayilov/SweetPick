@@ -10,7 +10,6 @@ const Footer = () => {
                 <div className="col-12 col-md-6 col-lg-3 pb-5">
                     <h1> ABOUT SHOP </h1>
                     <p className='mb20'> We possess within us two minds. So far I have written only of the conscious mind.We further know that the subconscious has recorded every event. This is just perfect theme. </p>
-                    <h1 className=''> NEWSLETTER </h1>
                 </div>
                 <div className="col-12 col-md-6 col-lg-3 pb-5 ">
                     <h1> INFORMATION </h1>

@@ -9,6 +9,7 @@
         padding: 0 0 30px 0;
         background: #f7f7f7;
         margin: 0 auto;
+        position: relative;
     }
 
     .bx-wrapper img {
@@ -110,6 +111,7 @@
         padding: 0 0 30px 0;
         background: #f7f7f7;
         margin: 0 auto;
+        position: relative;
     }
 
     .bx-wrapper img {
@@ -211,6 +213,7 @@
         padding: 0 0 30px 0;
         background: #f7f7f7;
         margin: 0 auto;
+        position: relative;
     }
 
     .bx-wrapper img {
@@ -309,9 +312,10 @@
         font-weight: bold;
         text-transform: uppercase;
         display: table;
-        padding: 0 0 10px 0;
+        padding: 0 0 30px 0;
         background: #f7f7f7;
         margin: 0 auto;
+        position: static;
     }
 
     .bx-wrapper img {

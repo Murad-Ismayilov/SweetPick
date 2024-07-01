@@ -6,7 +6,11 @@
     text-transform: uppercase;
     color: #000;
     padding-bottom: 20px;
-}
+  }
+
+  .ddsdf .fa-chevron{
+    padding: 45px 0 0 0;
+  }
 }
 
 @media(min-width: 360px){
@@ -17,7 +21,11 @@
     text-transform: uppercase;
     color: #000;
     padding-bottom: 20px;
-}
+  }
+
+  .ddsdf .fa-chevron{
+    padding: 45px 0 0 0;
+  }
 }
 
 @media(min-width: 375px){
@@ -87,4 +95,7 @@
   border: 0;
 }
 
+.ddsdf .fa-chevron{
+  padding: 0 0 0 0;
+}
 }
