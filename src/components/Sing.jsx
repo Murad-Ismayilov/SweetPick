@@ -189,7 +189,7 @@ const Sing = () => {
           <a href="#" onClick={(e) => { e.preventDefault(); handleTabClick('description'); }}>Description</a>
         </li>
         <li className={activeTab === 'clean' ? 'active' : ''}>
-          <a href="#" onClick={(e) => { e.preventDefault(); handleTabClick('clean'); }}>Clean</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); handleTabClick('clean'); }}>Description</a>
         </li>
         <li className={activeTab === 'reviews' ? 'active' : ''}>
           <a href="#" onClick={(e) => { e.preventDefault(); handleTabClick('reviews'); }}>Reviews</a>
