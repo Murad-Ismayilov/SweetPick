@@ -70,6 +70,251 @@
     }
 }
 
+@media(min-width: 390px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 412px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+@media(min-width: 414px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+@media(min-width: 428px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 768px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+@media(min-width: 820px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+@media(min-width: 834px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
+@media(min-width: 884px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 992px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 1114px){
+    .testimonials {
+        padding: 80px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717330082/test-bg_j12xds.webp) repeat-x;
+    }
+    
+    .testimonials p {
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: italic;
+    }
+    
+    .testimonials .user {
+        font-family: 'Merriweather';
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
 @media(min-width: 1200px){
     .testimonials {
         padding: 80px 0;

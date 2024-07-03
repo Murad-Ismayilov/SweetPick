@@ -45,7 +45,7 @@ const Blogs = () => {
 				className='mySwiper'
 				>
 					<SwiperSlide>
-						<div class="col-12 col-md-6 col-lg-12 infos">
+						<div class="col-12 col-md-12 col-lg-12 infos">
 							<div class="blog-item">
 								<div class="blog-img">
 									<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716991139/blog1_xnpal1.webp" alt=""/></a>
@@ -62,7 +62,7 @@ const Blogs = () => {
 					</SwiperSlide>
 
 					<SwiperSlide>
-					<div class="col-12 col-md-6 col-lg-12">
+					<div class="col-12 col-md-12 col-lg-12">
 						<div class="blog-item">
 							<div class="blog-img">
 								<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716991139/blog2_ocjk54.webp" alt=""/></a>
@@ -79,7 +79,7 @@ const Blogs = () => {
 					</SwiperSlide>
 
 					<SwiperSlide>
-					<div class="col-12 col-md-6 col-lg-12">
+					<div class="col-12 col-md-12 col-lg-12">
 						<div class="blog-item">
 							<div class="blog-img">
 								<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716991139/blog3_t6sazl.webp" alt=""/></a>

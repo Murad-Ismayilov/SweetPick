@@ -39,7 +39,7 @@ const CardsMehsullar = () => {
       <div className="feature-prods" style={{ background: '#f7f7f7' }}>
         <div className="container">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-12 col-md-6 col-lg-3">
               <div className="fprod-item">
                 <h1 className="prot-title">Special Offer</h1>
 
@@ -116,7 +116,7 @@ const CardsMehsullar = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-12 col-md-6 col-lg-3">
               <div className="fprod-item">
                 <h1 className="prot-title">Best Sellers</h1>
 
@@ -193,7 +193,7 @@ const CardsMehsullar = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-12 col-md-6 col-lg-3">
               <div className="fprod-item">
                 <h1 className="prot-title">Top Rated</h1>
 
@@ -270,7 +270,7 @@ const CardsMehsullar = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-12 col-md-6 col-lg-3">
               <div className="fprod-item">
                 <h1 className="prot-title">Sales</h1>
 

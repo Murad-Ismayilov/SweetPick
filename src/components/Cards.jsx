@@ -46,10 +46,10 @@ const Cards = () => {
                     spaceBetween: 50,
                     },
                 }}
-				modules={[Autoplay]}
+                modules={[Autoplay]}
                 className='mySwiper'>
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                             <i class="fa fa-plane"></i>
                             <h4>FAST DELIVERY</h4>
@@ -60,7 +60,7 @@ const Cards = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                             <i class="fa fa-eye"></i>
                             <h4>Retine Ready</h4>
@@ -71,7 +71,7 @@ const Cards = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                         <i class="fa-regular fa-comments"></i>
                             <h4>Quality Support</h4>
@@ -82,7 +82,7 @@ const Cards = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                         <i class="fa-solid fa-shield-halved"></i>
                             <h4>100% Guarantee</h4>
@@ -92,7 +92,7 @@ const Cards = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                             <i class="fa fa-plane"></i>
                             <h4>FAST DELIVERY</h4>
@@ -103,7 +103,7 @@ const Cards = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                             <i class="fa fa-eye"></i>
                             <h4>Retine Ready</h4>
@@ -114,7 +114,7 @@ const Cards = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                         <i class="fa-regular fa-comments"></i>
                             <h4>Quality Support</h4>
@@ -125,7 +125,7 @@ const Cards = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="serv-box">
                         <i class="fa-solid fa-shield-halved"></i>
                             <h4>100% Guarantee</h4>

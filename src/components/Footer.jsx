@@ -7,11 +7,13 @@ const Footer = () => {
     <footer className='footer pt-5 pb-5'>
         <div className="container">
             <div className="row">
-                <div className="col-12 col-md-6 col-lg-3 pb-5">
+                <div className="col-12 col-md-12 col-lg-3 pb-5">
                     <h1> ABOUT SHOP </h1>
                     <p className='mb20'> We possess within us two minds. So far I have written only of the conscious mind.We further know that the subconscious has recorded every event. This is just perfect theme. </p>
+                    <h1> NEWSLETTER </h1>
+                    <input type="text" className='form-control shadow-none' style={{background:"#000"}} placeholder='Your e-mail' />
                 </div>
-                <div className="col-12 col-md-6 col-lg-3 pb-5 ">
+                <div className="col-12 col-md-12 col-lg-3 pb-5 ">
                     <h1> INFORMATION </h1>
                     <ul>
                         <li>
@@ -37,7 +39,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="col-12 col-md-6 col-lg-3 pb-5">
+                <div className="col-12 col-md-12 col-lg-3 pb-5">
                     <h1> MY ACCOUNT </h1>
                     <ul>
                         <li>
@@ -63,7 +65,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="col-12 col-md-6 col-lg-3 gettouch pb-5">
+                <div className="col-12 col-md-12 col-lg-3 gettouch pb-5">
                     <h1> GET IN TOUCH WITH US </h1>
                     <p> <i class="fa fa-home"></i> Philippines, PO Box 6200 Talay st. 65, SweetPick inc.</p>
                     <p> <i class="fa-solid fa-phone"></i>  +63 918 4084 694 </p>

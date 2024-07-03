@@ -208,6 +208,708 @@
     
 }
 
+@media(min-width: 390px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 412px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 414px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 428px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+
+@media(min-width: 768px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 820px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 834px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 884px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 992px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+@media(min-width: 1114px){
+    .middle-content2 h1 {
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: bold;
+        font-style: italic;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .middle-content2 {
+        padding: 50px 0;
+        background: url(https://res.cloudinary.com/djmsfwo8n/image/upload/v1717232104/middle-bg_ukbdaj.webp) center no-repeat;
+    }
+    
+    .middle-shipp2 p {
+        font-family: 'Playfair Display';
+        font-size: 15px;
+        color: #fff;
+        margin: 8px auto 0;
+        text-align: center;
+        display: table;
+        padding: 10px;
+        background: transparent;
+        position: relative;
+    }
+    
+    .middle-content2 a {
+        font-family: 'Noticia Text';
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    
+    .middle-content2 i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #c2c3b5;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .middle-content2 i:hover {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #ea5748;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 10px;
+        font-size: 26px !important;
+    }
+    
+    .Newarrival{
+        background:'#f7f7f7'
+    }
+    
+    
+}
+
+
 @media(min-width: 1200px){
     .middle-content2 h1 {
         font-family: 'Playfair Display';

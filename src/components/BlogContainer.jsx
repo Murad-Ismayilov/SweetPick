@@ -7,6 +7,7 @@ import {Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 // import Swiper styles
 import 'swiper/css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,10 +25,10 @@ const BlogContainer = () => {
       <div className="blog-container">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-8">
+            <div className="col-12 col-md-12 col-lg-8">
               <div className="blog-img pb-5">
                 <a href="#"> 
-                  <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716991139/blog1_xnpal1.webp" alt=""/> 
+                  <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716991139/blog1_xnpal1.webp" className="" alt=""/> 
                 </a>
                 <div className="calendar">
                   <p>02</p>
@@ -239,7 +240,7 @@ const BlogContainer = () => {
               </div>
             </div>
             
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-12 col-lg-4">
               <div className="blog-search mb-30">
                 <input type="text" placeholder="Search"/>
                 <i className="fa-solid fa-magnifying-glass"></i>
@@ -381,37 +382,37 @@ const BlogContainer = () => {
 				>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 kc">
+				<div class="col-12 col-md-12 col-lg-12 kc">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners1_zfdt47.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 kc">
+				<div class="col-12 col-md-12 col-lg-12 kc">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners2_v4b4lh.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 kc">
+				<div class="col-12 col-md-12 col-lg-12 kc">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners3_yxwmpo.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 kc">
+				<div class="col-12 col-md-12 col-lg-12 kc">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994620/partners4_k25edj.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 kc">
+				<div class="col-12 col-md-12 col-lg-12 kc">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994611/partners5_hrpmjb.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 kc">
+				<div class="col-12 col-md-12 col-lg-12 kc">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994717/partners6_etuvhm.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>

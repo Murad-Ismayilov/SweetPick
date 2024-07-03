@@ -13,6 +13,34 @@ const Sing = () => {
     setSelectedImage(image);
   }
 
+  const [stars, setStars] = useState([
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+    [true, true, true, true, false],
+
+    
+  ]);
+
+  const handleClick = (event, prodIndex, starIndex) => {
+    event.preventDefault();
+    setStars(stars.map((prodStars, i) => 
+      i === prodIndex 
+        ? prodStars.map((star, j) => j === starIndex ? !star : star) 
+        : prodStars
+    ));
+  };
+  const [activeTab, setActiveTab] = useState('description');
+
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+  };
+
   return (
     <>
     <div id="content">
@@ -20,7 +48,7 @@ const Sing = () => {
     <div class="product-page container">
     
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-12 col-md-12 col-lg-6">
         <div class="single-img">
         <div className="sp-large">
                   <img src={selectedImage} alt="" className='sp-current-big' />
@@ -48,7 +76,7 @@ const Sing = () => {
             <div id="test"></div>
         </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-md-12 col-lg-6">
         <div class="single-desc">
             <div class="top-single">
             <span className='top-single-span'>Shop  /  Men  /  Jackets  /  Black Leather Jacket</span>
@@ -63,9 +91,18 @@ const Sing = () => {
             
             <h1 className='middle-single-h1'>Black Leather Jacket</h1>
 
-            <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717608337/stars_lxfo71.webp" alt=""/>
-
-            <div class="reviews">
+            
+            <div class="reviews" style={{display:"flex"}}>
+            <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7", margin: "0px 20px 0 0" }}>
+                          {stars[8].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 8, index)}
+                            />
+                          ))}
+                        </div>
                 <a href="#">21 Rewiew(s)</a>  
                 <a href="#">Add a Review</a>
             </div>
@@ -119,7 +156,7 @@ const Sing = () => {
                 <li><a href="#" class="compare"><i class="fa fa-retweet"></i>Add to Compare</a></li>
             </ul>
             <div class="clear"></div>
-                                
+
             </div>
 
             <div class="single-descript">
@@ -146,25 +183,51 @@ const Sing = () => {
     <div class="tabs-single">
                     <div class="container">
 
-                        <div id="tabs">
-                        <ul>
-                            <li class="aktive"><a href="#tabs-1">Description</a></li>
-                            <li><a href="#tabs-2">ADDITIONAL INFORMATION</a></li>
-                            <li><a href="#tabs-3">REVIEWS</a></li>
-                        </ul>
-                        <div class="tab-border"></div>
-                        <div id="tabs-1" style={{display: "block"}}>
-                            <p>We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body. We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body.</p>
-                        </div>
-                        <div id="tabs-2" style={{display: "none"}}>
-                            <p>We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body. We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body.</p>
-                        </div>
-                        <div id="tabs-3">
-                        <p><strong>John doe</strong></p>
-                            <p>Great Product, i give it a 4 star review.</p>
-                            <img src="upload/stars.png" alt=""/>
-                        </div>
-                        </div>
+                    <div id="tabs">
+      <ul className="tab-links clearfix">
+        <li className={activeTab === 'description' ? 'active' : ''}>
+          <a href="#" onClick={(e) => { e.preventDefault(); handleTabClick('description'); }}>Description</a>
+        </li>
+        <li className={activeTab === 'clean' ? 'active' : ''}>
+          <a href="#" onClick={(e) => { e.preventDefault(); handleTabClick('clean'); }}>Clean</a>
+        </li>
+        <li className={activeTab === 'reviews' ? 'active' : ''}>
+          <a href="#" onClick={(e) => { e.preventDefault(); handleTabClick('reviews'); }}>Reviews</a>
+        </li>
+      </ul>
+      <div className="tab-border"></div>
+      <div id="description" style={{ display: activeTab === 'description' ? 'block' : 'none' }}>
+        <ul>
+          <li>
+            <p>We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body. We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="clean" style={{ display: activeTab === 'clean' ? 'block' : 'none' }}>
+        <ul>
+          <li>
+            <p>We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body. We possess within us two minds. So far I have written only of the conscious mind.. Our subconscious mind contains such power and complexity that it literally staggers the imagination. We know that this subconscious mind controls and orchestrates our bodily functions, from pumping blood to all parts of our body.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="reviews" style={{ display: activeTab === 'reviews' ? 'block' : 'none' }}>
+        <div className="rating">
+          <strong>John Doe</strong>
+          <p>Great Product, I give it a 4 star review.</p>
+          <div className="stars">
+            {stars[1].map((star, index) => (
+              <i
+                key={index}
+                className={star ? 'fas fa-star' : 'far fa-star'}
+                style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700' }}
+                onClick={(e) => handleClick(e, 1, index)}
+              />
+            ))}
+          </div>
+        </div>
+        <hr style={{ border: '3px solid #f1f1f1' }} />
+      </div>
+    </div>
 
 
 
@@ -180,7 +243,7 @@ const Sing = () => {
                     <h1> RELATED ITEMS </h1>
                 </div>
 
-                <div className='solid'>
+                <div>
                 <i class="fa-solid fa-chevron-left"></i>
                 <i class="fa-solid fa-chevron-right"></i>
                 </div>
@@ -224,7 +287,7 @@ const Sing = () => {
                 }}
                 className='mySwiper'>
             <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716967036/new_zk2oto.webp" className="new" alt="" />
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival1_kevqbb.webp" class="Hundurluk" alt="..." />
@@ -233,12 +296,22 @@ const Sing = () => {
                       <h5 class="brown"> Brown Coat </h5>
                       <p class="arial"> $899.00 </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[0].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 0, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716967035/sale_wksae3.webp" className="new" alt="" />
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival2_qnqsie.webp" class="Hundurluk" alt="..." />
@@ -249,24 +322,44 @@ const Sing = () => {
                         <span className="span"> $1.199.00 </span>$899.00
                       </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[1].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 1, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival3_eln4we.webp" class="Hundurluk" alt="..." />
                     <div class="card-body">
                       <h5 class="brown">Brown Coat</h5>
                       <p class="arial"> $899.00 </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[2].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 2, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival4_at2kwr.webp" class="Hundurluk" alt="..."/>
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716971941/out_xwgg4o.webp" alt="" className="out" />
@@ -276,12 +369,22 @@ const Sing = () => {
                         <span className="span"> $1.199.00 </span>$899.00
                       </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[3].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 3, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716967035/sale_wksae3.webp" className="new" alt="" />
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival5_k0m5du.webp" class="Hundurluk" alt="..." />
@@ -289,24 +392,44 @@ const Sing = () => {
                       <h5 class="brown">Brown Coat</h5>
                       <p class="arial"> $899.00 </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[4].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 4, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881784/arrival6_unniop.webp" class="Hundurluk" alt="..." />
                     <div class="card-body">
                       <h5 class="brown">Brown Coat</h5>
                       <p class="arial"> $899.00 </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[5].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 5, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881785/arrival7_nnmase.webp" class="Hundurluk" alt="..." />
                     <div class="card-body">
@@ -315,12 +438,22 @@ const Sing = () => {
                         <span className="span"> $1.199.00 </span>$899.00
                       </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[6].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 6, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="col-12 col-md-6 col-lg-12">
+                <div className="col-12 col-md-12 col-lg-12">
                   <div class="card border-0 rounded-0">
                     <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716881785/arrival8_gzlc2c.webp" class="Hundurluk" alt="..." />
                     <div class="card-body">
@@ -329,6 +462,16 @@ const Sing = () => {
                         <span className="span"> $1.199.00 </span>$899.00
                       </p>
                     </div>
+                    <div style={{textAlign: "center", alignItems: "center", background: "#f7f7f7" }}>
+                          {stars[7].map((star, index) => (
+                            <i
+                              key={index}
+                              className={star ? 'fas fa-star' : 'far fa-star'}
+                              style={{ cursor: 'pointer', fontSize: '15px', color: '#ffd700'}}
+                              onClick={(e) => handleClick(e, 7, index)}
+                            />
+                          ))}
+                        </div>
                   </div>
                 </div>
               </SwiperSlide>
@@ -370,37 +513,37 @@ const Sing = () => {
 				>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 ">
+				<div class="col-12 col-md-12 col-lg-12 ">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners1_zfdt47.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 ">
+				<div class="col-12 col-md-12 col-lg-12 ">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners2_v4b4lh.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 ">
+				<div class="col-12 col-md-12 col-lg-12 ">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994498/partners3_yxwmpo.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 ">
+				<div class="col-12 col-md-12 col-lg-12 ">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994620/partners4_k25edj.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12 ">
+				<div class="col-12 col-md-12 col-lg-12 ">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994611/partners5_hrpmjb.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>
 
 				<SwiperSlide>
-				<div class="col-12 col-md-6 col-lg-12">
+				<div class="col-12 col-md-12 col-lg-12">
 					<a href="#"><img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1716994717/partners6_etuvhm.webp" alt=""/></a>
 				</div>
 				</SwiperSlide>

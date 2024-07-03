@@ -32,8 +32,8 @@ const OurTeam = () => {
                     spaceBetween: 20,
                     },
                     768: {
-                    slidesPerView: 4,
-                    spaceBetween: 40,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
                     },
                     1024: {
                     slidesPerView: 3,
@@ -44,7 +44,7 @@ const OurTeam = () => {
                 className='mySwiper'>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="team-box">
                             <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717928427/teamabout1_eriok1.webp" alt="" />
                             <h4>FAST DELIVERY</h4>
@@ -63,7 +63,7 @@ const OurTeam = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="team-box">
                             <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717928427/teamabout2_p1wbbf.webp" alt="" />
                             <h4>Retine Ready</h4>
@@ -82,7 +82,7 @@ const OurTeam = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="team-box">
                         <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717928427/teamabout3_fenjrm.webp" alt="" />
                             <h4>Quality Support</h4>
@@ -101,7 +101,7 @@ const OurTeam = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="team-box">
                             <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717928427/teamabout1_eriok1.webp" alt="" />
                             <h4>FAST DELIVERY</h4>
@@ -120,7 +120,7 @@ const OurTeam = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="team-box">
                             <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717928427/teamabout2_p1wbbf.webp" alt="" />
                             <h4>Retine Ready</h4>
@@ -139,7 +139,7 @@ const OurTeam = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div class="col-12 col-md-6 col-lg-12">
+                    <div class="col-12 col-md-12 col-lg-12">
                         <div class="team-box">
                         <img src="https://res.cloudinary.com/djmsfwo8n/image/upload/v1717928427/teamabout3_fenjrm.webp" alt="" />
                             <h4>Quality Support</h4>

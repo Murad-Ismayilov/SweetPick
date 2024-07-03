@@ -43,6 +43,328 @@
     }
 }
 
+@media(min-width: 390px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 412px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 414px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 428px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 768px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 820px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 834px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 884px){
+    .kc{
+        color: #000;
+        font-family: 'Noticia Text';
+        font-weight: bold;
+        text-transform: uppercase;
+        display: table;
+        padding: 20px 16px;
+        background: #fff;
+        margin: 0 auto;
+        position: relative;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 992px){
+    .partners {
+        padding: 35px 0;
+        background: #fff;
+    }
+    
+    .partners img {
+        width: 100%;
+    }
+
+    .kc{
+        width: 166px;
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+    body img {
+        border: none;
+    }
+    img {
+        vertical-align: middle;
+    }
+    img {
+        border: 0;
+    }
+    
+    .call-to-action h1 {
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Noticia Text';
+        margin: 0 0 20px;
+        text-transform: uppercase;
+    }
+    
+    .call-to-action p {
+        text-align: center;
+        margin: 0 0 20px;
+    }
+    
+    p {
+        font-size: 13px;
+        color: #6b6b6b;
+        margin: 0;
+        line-height: 22px;
+        font-family: 'Merriweather';
+    }
+    
+    .call-to-action a {
+        margin: 0 auto;
+    }
+    
+    .button-red {
+        background-color: #ea5748;
+    }
+    
+    .button-red:hover {
+        background-color: #97443b;
+    }
+    .button-red {
+        background-color: #ea5748;
+    }
+    
+    .medium-button {
+        width: 169px;
+        padding: 10px 0;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        font-family: 'Merriweather';
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .call-to-action{    
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .call-to-action p{
+        margin-top: 21px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .medium-button {
+        width: 169px;
+        padding: 10px 0;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        font-family: 'Merriweather';
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+}
+
+@media(min-width: 1114px){
+    .partners {
+        padding: 35px 0;
+        background: #fff;
+    }
+    
+    .partners img {
+        width: 100%;
+    }
+
+    .kc{
+        width: 166px;
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+    body img {
+        border: none;
+    }
+    img {
+        vertical-align: middle;
+    }
+    img {
+        border: 0;
+    }
+    
+    .call-to-action h1 {
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Noticia Text';
+        margin: 0 0 20px;
+        text-transform: uppercase;
+    }
+    
+    .call-to-action p {
+        text-align: center;
+        margin: 0 0 20px;
+    }
+    
+    p {
+        font-size: 13px;
+        color: #6b6b6b;
+        margin: 0;
+        line-height: 22px;
+        font-family: 'Merriweather';
+    }
+    
+    .call-to-action a {
+        margin: 0 auto;
+    }
+    
+    .button-red {
+        background-color: #ea5748;
+    }
+    
+    .button-red:hover {
+        background-color: #97443b;
+    }
+    .button-red {
+        background-color: #ea5748;
+    }
+    
+    .medium-button {
+        width: 169px;
+        padding: 10px 0;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        font-family: 'Merriweather';
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .call-to-action{    
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .call-to-action p{
+        margin-top: 21px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .medium-button {
+        width: 169px;
+        padding: 10px 0;
+        text-align: center;
+        display: block;
+        font-size: 13px;
+        font-family: 'Merriweather';
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+}
+
 @media(min-width: 1200px){
     .partners {
         padding: 35px 0;

@@ -14,7 +14,6 @@ import FromBlog from '../components/FromBlog'
 const Home = () => {
   return (
     <> 
-
     <Shirketler/>
     <CartMehsul/>
     <Mehsullar/>
