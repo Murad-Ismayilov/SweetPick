@@ -69,7 +69,7 @@ const Footer = () => {
                     <h1> GET IN TOUCH WITH US </h1>
                     <p> <i class="fa fa-home"></i> Philippines, PO Box 6200 Talay st. 65, SweetPick inc.</p>
                     <p> <i class="fa-solid fa-phone"></i>  +63 918 4084 694 </p>
-                    <p> <i class="fa-solid fa-envelope"></i>  samokhinteam@gmail.com</p>
+                    <p> <i class="fa-solid fa-envelope"></i> mismayilov148@gmai.com</p>
                     <h1> FIND US ON </h1>
                     <ul class="footer-socials">
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
