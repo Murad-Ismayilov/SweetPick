@@ -108,7 +108,7 @@ const Touch = () => {
                                         onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.subject} />
                                 </div>
                                 <div className="form-group">
-                                    <textarea name="message" id="message" placeholder='Your Message*' className={`form-control shadow-none ${formik.touched.message && formik.errors.message ? 'is-invalid' : ''}`}
+                                    <textarea name=" " id="message" placeholder='Your Message*' className={`form-control shadow-none ${formik.touched.message && formik.errors.message ? 'is-invalid' : ''}`}
                                         onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.message}></textarea>
                                 </div>
                                 <button className='button-red'>SEND</button>
